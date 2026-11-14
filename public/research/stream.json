@@ -1,20 +1,36 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-14T06:24:31+00:00",
+  "updated_at": "2026-11-14T18:03:10+00:00",
   "status": "automatic_discovery_not_fact_checked",
   "analysis": "metadata_only",
   "source": "Crossref + arXiv",
   "source_queries": {
-    "Crossref": 6,
+    "Crossref": 5,
     "arXiv": 3
   },
-  "source_queries_succeeded": 9,
-  "new_items": 2,
+  "source_queries_succeeded": 8,
+  "new_items": 1,
   "agents_enabled": false,
   "errors": [
-    "Crossref/bewusstsein: HTTPError: HTTP Error 429: Too Many Requests"
+    "Crossref/leben: HTTPError: HTTP Error 429: Too Many Requests",
+    "Crossref/liebe: HTTPError: HTTP Error 429: Too Many Requests"
   ],
   "items": [
+    {
+      "id": "10.1177/00483931261505199",
+      "topic": "wirklichkeit",
+      "title": "Social Normativity Without Realism: A Fictionalist Challenge",
+      "date": "2026-11-14",
+      "authors": [
+        "Erim Bakkal"
+      ],
+      "venue": "Philosophy of the Social Sciences",
+      "url": "https://doi.org/10.1177/00483931261505199",
+      "source": "Crossref bibliographic metadata",
+      "status": "unreviewed",
+      "source_examined": "metadata_only",
+      "agent_notes": {}
+    },
     {
       "id": "10.1093/aesthj/ayag025",
       "topic": "kunst",
